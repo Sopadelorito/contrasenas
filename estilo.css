@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#202124;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    color:white;
+}
+
+.contenedor{
+    width:450px;
+    background:#303134;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 0 20px rgba(0,0,0,.5);
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.resultado input{
+    width:100%;
+    padding:15px;
+    font-size:18px;
+    border:none;
+    border-radius:8px;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.opciones{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    margin-bottom:20px;
+}
+
+label{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+input[type="number"]{
+    width:70px;
+}
+
+.botones{
+    display:flex;
+    justify-content:space-between;
+}
+
+button{
+    width:48%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    color:white;
+    font-size:16px;
+}
+
+#generar{
+    background:#00c853;
+}
+
+#copiar{
+    background:#2196f3;
+}
+
+button:hover{
+    opacity:.9;
+}
